@@ -1,0 +1,21 @@
+<apex:page controller="RadishController">
+<h1>RadishVF</h1>
+
+<div>
+    <apex:form>
+        <apex:pageMessages />
+        <apex:pageBlock>
+            <div>
+                badval1: <apex:inputText id="b1" value="{!badval1}" />
+                <apex:commandButton action="{!search1}" value="Search 1" />
+            </div>
+            <div>
+                badval2: <apex:inputText id="b2" value="{!badval2}" />
+                <apex:commandButton action="{!search2}" value="Search 2" />
+            </div>
+        </apex:pageBlock>
+    </apex:form>
+</div>
+
+
+</apex:page>
